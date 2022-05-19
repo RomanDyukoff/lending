@@ -88,4 +88,8 @@
     .main {
         padding-top: 2rem;
     }
+
+    .welcom__background::after {
+        background: linear-gradient(to top, transparent 0%,  rgba(0,0,0,0.9) 120%);
+    }
 }
