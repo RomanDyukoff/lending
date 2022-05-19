@@ -84,4 +84,8 @@
     .header__list a {
         font-size: 1rem;
     }
+
+    .main {
+        padding-top: 5rem;
+    }
 }
