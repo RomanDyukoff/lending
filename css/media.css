@@ -3,7 +3,7 @@
         overflow: hidden;
     }
 
-    .header {
+    .container {
         padding: 0.5rem 1rem;
     }
 
@@ -68,7 +68,7 @@
         width: 30%;
         height: 100%;
         padding: 5rem 0 0 2rem;
-        background-color: #b4b212;
+        background-color: #fff;
         overflow: auto;
     }
 
@@ -83,13 +83,10 @@
 
     .header__list a {
         font-size: 1rem;
+        font-weight: 600;
     }
 
-    .main {
-        padding-top: 2rem;
-    }
-
-    .welcom__background::after {
-        background: linear-gradient(to top, transparent 0%,  rgba(0,0,0,0.9) 120%);
+    .header__link {
+        color: #494949;
     }
 }

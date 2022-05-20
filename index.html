@@ -9,42 +9,53 @@
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <div class="header__body">
-                <a href="index.html" class="header__logo">
-                    <img src="svg/icon.svg" alt="logo" >
-                </a>
-                <div class="header__burger">
-                    <span></span>
-                </div>
-                <nav class="header__menu">
-                    <ul class="header__list">
-                        <li>
-                            <a href="#" class="header__link">о нас</a>
-                        </li>
-                        <li>
-                            <a href="#" class="header__link">наши работы</a>
-                        </li>
-                        <li>
-                            <a href="#" class="header__link">контакты</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <main class="main">
-        <section class="welcome">
+    <div class="wrapper">
+        <header class="header">
             <div class="container">
-                <div class="welcome__body"></div>
-                <div class="welcom__background">
-                    <img src="img/background.png" alt="background">
+                <div class="header__body">
+                    <a href="index.html" class="header__logo">
+                        <img src="assest/svg/icon.svg" alt="logo" >
+                    </a>
+                    <div class="header__burger">
+                        <span></span>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li>
+                                <a href="#" class="header__link">о нас</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__link">наши работы</a>
+                            </li>
+                            <li>
+                                <a href="#" class="header__link">контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-        </section>
-    </main>
-    
+        </header>
+        <main>
+            <section class="welcome">
+                <div class="welcome__content">
+                    <div class="container">
+                        <div class="welcome__body">
+                            <div class="welcome__wrap">
+                                <h1 class="welcome__title">Мы предлагаем вам изделия из высококачественных материалов и любой сложности</h1>
+                                <ul class="welcome__list">
+                                    <li>беседки</li>
+                                    <li>лестницы</li>
+                                    <li>ограждения</li> 
+                                </ul>
+                                <button class="welcome__button">заказать звонок</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="welcome__background"></div>
+            </section>
+        </main>
+    </div>    
     <script src="js/app.js"></script>
 </body>
 </html>
