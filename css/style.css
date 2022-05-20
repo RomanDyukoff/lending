@@ -2,15 +2,15 @@
 
 @font-face {
     font-family: "Roboto-Regular";
-    src: url("/fonts/Roboto-Regular.woff") format("truetype");
+    src: url("../fonts/PoiretOne-Regular.woff") format("truetype");
 }
 @font-face {
     font-family: "Roboto-Medium";
-    src: url("/fonts/Roboto-Medium.woff") format("truetype");
+    src: url("../fonts/Roboto-Medium.woff") format("truetype");
 }
 @font-face {
     font-family: "PoiretOne-Regular";
-    src: url("/fonts/PoiretOne-Regular.woff") format("truetype");
+    src: url("../fonts/PoiretOne-Regular.woff") format("truetype");
 }
 
 *, *:after, *:before {
@@ -40,14 +40,6 @@ img {
     width: 100%;
 }
 
-.wrapper {
-    position: relative;
-    max-width: 2440px;
-    min-width: 320px;
-    margin: 0 auto;
-}
-
-
 .container {
     max-width: 1440px;
     width: 100%;
@@ -58,7 +50,6 @@ img {
 .header {
     position: fixed;
     top: 0;
-    max-width: 2440px;
     width: 100%;
     z-index: 10;
 }
